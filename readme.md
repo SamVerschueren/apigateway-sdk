@@ -47,6 +47,12 @@ The stage name of which you want to download the SDK for.
 
 Returns the `aws-sdk` config object in order to [configure](http://docs.aws.amazon.com/AWSJavaScriptSDK/guide/node-configuring.html) the AWS SDK.
 
+
+## Related
+
+- [apigateway-sdk-cli](https://github.com/SamVerschueren/apigateway-sdk-cli) - CLI for this module
+
+
 ## License
 
 MIT © [Sam Verschueren](http://github.com/SamVerschueren)
