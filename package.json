@@ -1,0 +1,41 @@
+{
+  "name": "apigateway-sdk",
+  "version": "0.0.0",
+  "description": "Retrieve the JavaScript AWS API Gateway SDK.",
+  "license": "MIT",
+  "repository": "SamVerschueren/api-sdk",
+  "author": {
+    "name": "Sam Verschueren",
+    "email": "sam.verschueren@gmail.com",
+    "url": "github.com/SamVerschueren"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "aws",
+    "apigateway",
+    "sdk",
+    "zip"
+  ],
+  "dependencies": {
+    "aws-sdk": "^2.2.19",
+    "pinkie-promise": "^2.0.0"
+  },
+  "devDependencies": {
+    "ava": "*",
+    "sinon": "^1.17.2",
+    "xo": "*"
+  },
+  "xo": {
+    "ignores": [
+      "test.js"
+    ]
+  }
+}
